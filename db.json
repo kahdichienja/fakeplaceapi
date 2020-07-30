@@ -1,23 +1,47 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 1, "shopname":"Rongo", "geocode":{
+  "neerShops": [
+    { 
+      "id": 1, 
+      "shopname":"Rongo",
+      "geocode":{
             "lat": 12.211,
             "lng": 213.223
         },
-        "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used before final copy is available, but it may also be used to temporarily replace copy in a process called greeking, which allows designers to consider form without the meaning of the text influencing the design. Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a first-century B",
-        "rating": 9,
-        "imgUrl": "https://source.unsplash.com/random/800x700"
+      "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used before final copy is available, but it may also be used to temporarily replace copy in a process called greeking, which allows designers to consider form without the meaning of the text influencing the design. Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a first-century B",
+      "rating": 9,
+      "imgUrl": "https://source.unsplash.com/random/800x700"
 
     },
-    { "id": 3, "title": "Post 3" }
+    { 
+      "id": 2, 
+      "shopname":"Nairob Shoping Mall",
+      "geocode":{
+            "lat": -5.211,
+            "lng": 12.223
+        },
+      "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used before final copy is available, but it may also be used to temporarily replace copy in a process called greeking, which allows designers to consider form without the meaning of the text influencing the design. Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a first-century B",
+      "rating": 9,
+      "imgUrl": "https://source.unsplash.com/random/800x790"
+
+    },
+    { 
+      "id": 3, 
+      "shopname":"Nairob Shoping Mall",
+      "geocode":{
+            "lat": -5.211,
+            "lng": 42.223
+        },
+      "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used before final copy is available, but it may also be used to temporarily replace copy in a process called greeking, which allows designers to consider form without the meaning of the text influencing the design. Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a first-century B",
+      "rating": 9,
+      "imgUrl": "https://source.unsplash.com/random/801x790"
+
+    },
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    { "id": 1, "body": "some comment", "neerShopsId": 1 },
+    { "id": 2, "body": "some comment", "neerShopsId": 1 }
   ],
   "profile": {
-    "name": "typicode"
+    "name": "kahdichienja"
   }
 }
