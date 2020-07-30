@@ -35,7 +35,7 @@
       "rating": 9,
       "imgUrl": "https://source.unsplash.com/random/801x790"
 
-    },
+    }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "neerShopsId": 1 },
